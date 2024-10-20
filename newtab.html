@@ -1,18 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>New Tab To-Do List</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.svg">
+  <title>Hadyatussalam Chrome Extension</title>
+  <link rel="stylesheet" href="/newtab/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=circle,close,dark_mode,edit,info,light_mode,settings" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div id="app">
-    <h1>To-Do List</h1>
-    <div class="input-group">
-      <input type="text" id="taskInput" placeholder="Add a new task...">
-      <button id="addTask">Add</button>
+  <h1>HADYATUSSALAM</h1>
+
+  <div class="container">
+    <!-- Time and Date Section -->
+    <div class="time-date">
+      <div><strong>4:09pm</strong> Karachi</div>
+      <div><strong>11 October 2024</strong> Tuesday</div>
     </div>
-    <ul id="taskList"></ul>
+
+    <!-- Prayer Times Section -->
+    <div class="prayer-times">
+      <div>Fajr<br><strong>5:09am</strong></div>
+      <div>Zuhr<br><strong>12:12pm</strong></div>
+      <div>Asr<br><strong>4:35pm</strong></div>
+      <div>Maghrib<br><strong>6:05pm</strong></div>
+      <div>Isha<br><strong>8:23pm</strong></div>
+    </div>
+
+    <!-- Add Task Section -->
+    <div class="add-task">
+      <span class="material-symbols-rounded" style="font-variation-settings: 'FILL' 1">
+        circle
+      </span>
+      <input type="text" placeholder="Add your tasks here">
+      <!-- <button>Add</button> -->
+    </div>
+
+    <!-- Task List Section -->
+    <div class="task-list">
+      <div>
+        <span>Eat good food</span>
+        <button>
+          <span class="material-symbols-rounded">
+            edit
+          </span>
+        </button>
+        <button>
+          <span class="material-symbols-rounded">
+            close
+          </span>
+        </button>
+      </div>
+      <div>
+        <span>Wakeup at 6pm today</span>
+        <button>
+          <span class="material-symbols-rounded">
+            edit
+          </span>
+        </button>
+        <button>
+          <span class="material-symbols-rounded">
+            close
+          </span>
+        </button>
+      </div>
+      <div>
+        <span>Sleep at 11pm tomorrow</span>
+        <button>
+          <span class="material-symbols-rounded">
+            edit
+          </span>
+        </button>
+        <button>
+          <span class="material-symbols-rounded">
+            close
+          </span>
+        </button>
+      </div>
+      <div>
+        <span>Maths Assignment</span>
+        <button>
+          <span class="material-symbols-rounded">
+            edit
+          </span>
+        </button>
+        <button>
+          <span class="material-symbols-rounded">
+            close
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Footer (Dark Mode, Settings, Info) -->
+    <div class="footer">
+      <button title="Light Mode">
+        <span class="material-symbols-rounded">
+          light_mode
+        </span>
+      </button>
+      <button title="Dark Mode">
+        <span class="material-symbols-rounded">
+          dark_mode
+        </span>
+      </button>
+      <button title="Information">
+        <span class="material-symbols-rounded">
+          info
+        </span>
+      </button>
+      <button title="Settings">
+        <span class="material-symbols-rounded">
+          settings
+        </span>
+      </button>
+    </div>
   </div>
-  <script src="popup.js"></script>
+
+  <!-- Leaf Image -->
+  <!-- <img src="leaf.png" alt="Leaf" class="leaf-image" width="100"> -->
+
 </body>
 </html>

@@ -14,7 +14,10 @@ npm i chrome-types
 Let's set up the directory structure.
 Create the folders images, wireframes.
 
-In the directory, first create a manifest.json file. This JSON file describes the extension's capabilities and configuration.
+In the directory, first create a manifest.json file. This JSON file describes the extension's capabilities and configuration. t must be located at the root of the project.
+The only required keys are "manifest_version", "name", and "version".
+It supports comments (//) during development, but these must be removed before uploading your code to the Chrome Web Store. To dive deeper, check out the "name", "version" and "description" keys on the Manifest overview page: https://developer.chrome.com/docs/extensions/reference/manifest
+
 In this file, you will write:
 {
   "manifest_version": 3,

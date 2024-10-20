@@ -5,8 +5,8 @@
   "description": "A simple and elegant to-do list extension.",
   "action": 
   {
-    "default_popup": "popup.html",
-    "default_icon": "wireframes/ToDoList.jpg"
+    "default_popup": "popup/popup.html",
+    "default_icon": "/images/favicon.svg"
   },
   "permissions": ["storage"],
   "chrome_url_overrides": 

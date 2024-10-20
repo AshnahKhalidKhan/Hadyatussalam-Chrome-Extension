@@ -1,0 +1,148 @@
+@const green=#82AB62;
+@const fontfamily="Product Sans";
+
+
+body
+{
+  background-color: #000000;
+  background-image: url("/images/background.png");
+  font-family: Arial, sans-serif;
+  color: #82AB62;
+  text-align: center;
+}
+
+h1
+{
+  color: #91C788;
+  margin-top: 20px;
+  font-size: 3em;
+  letter-spacing: 5px;
+}
+
+.container
+{
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.time-date
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1d1d1d;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.prayer-times
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1d1d1d;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.prayer-times div
+{
+  flex: 1;
+  margin: 0 5px;
+}
+
+.add-task
+{
+  display: flex;
+  align-items: center;
+  background-color: #1d1d1d;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.add-task input
+{
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background-color: #0d0d0d;
+  color: #7fc97f;
+  outline: none;
+}
+
+.add-task button
+{
+  background-color: #7fc97f;
+  color: #0d0d0d;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-list
+{
+  background-color: #1d1d1d;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.task-list div
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #2d2d2d;
+}
+
+.task-list div:last-child
+{
+  border-bottom: none;
+}
+
+.task-list div span
+{
+  color: #91C788;
+}
+
+.task-list div button
+{
+  background-color: transparent;
+  border: none;
+  color: #7fc97f;
+  cursor: pointer;
+}
+
+.footer
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer button
+{
+  background-color: transparent;
+  border: none;
+  color: #7fc97f;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.leaf-image
+{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.material-symbols-rounded
+{
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
