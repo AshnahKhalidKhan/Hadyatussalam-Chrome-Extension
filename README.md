@@ -9,6 +9,8 @@ First create your Github repository and clone it onto your code editor and open 
 
 If you are developing using a code editor such as VSCode or Atom, you can use the npm package chrome-types to take advantage of auto-completion for the Chrome API. This npm package is updated automatically when the Chromium source code changes.
 
+npm i chrome-types
+
 Let's set up the directory structure.
 Create the folders images, wireframes.
 
