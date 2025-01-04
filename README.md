@@ -37,5 +37,7 @@ In this file, you will write:
 
 most manifest files contain an "action" key which declares the image Chrome should use as the extension's action icon and the HTML page to show in a popup when the extension's action icon is clicked.
 
+"background" in manifest.json ---> script that runs in background
+
 
 

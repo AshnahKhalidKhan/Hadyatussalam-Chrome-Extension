@@ -8,6 +8,18 @@
     "default_popup": "popup/popup.html",
     "default_icon": "/images/favicon.svg"
   },
+  "icons":
+  {
+    "16": "images/favicon-16.png",
+    "32": "images/favicon-32.png",
+    "48": "images/favicon-48.png",
+    "128": "images/favicon-128.png"
+  },
+  "background":
+  {
+    "service_worker": "background/background.js",
+    "type": "module"
+  },
   "permissions": ["storage"],
   "chrome_url_overrides": 
   {
